@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h4>Kalkulator Suhu</h4>
+            <ul class="menu">
+                <li><a href="index.html">Tutorial</a></li>
+                <li><a href="formula.html">Rumus</a></li>
+                <li><a href="Kalkulator.html">Kalkulator</a></li>
+              </ul>   
+        </header>
+        <body>
+            <p>Masukkan suhu derajat celcius (°C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+            <div class="input-group">
+                <p><label for="input">Celcius (°C):</label></p>
+                <input type="number" id="inputCelcius">
+            </div>
+            <div class="input-group">
+                <p><label for="input">Fahrenheit (°F):</label></p>
+                <input type="number" id="outputFahrenheit">
+            </div>
+            <div class="input-group">
+                <button class="btn" onclick="convert()">Konversi</button>
+                <button class="btn btn-reset" onclick="reset()">Reset</button>
+                <button class="btn btn-reverse" onclick="reverse()">Reverse</button>
+            </div>
+            <div class="output-group">
+                <p>Cara Kalkulasi:</p>
+                <textarea id="calculation" rows="5" cols= "50" readonly></textarea>
+            </div>
+        </body>
+    </div>
+    <script src="script.js"></script>
+        <footer>
+            <div class="Contact">
+                <h2>Anjay aku Keren</h2>
+                <p>nah dibawah ini ada link yang mungkin berguna</p>
+                <a href="mailto:kevinkristian327@gmail.com"><img id="Gmail" src="Gmail.png" width="65px"></a>
+                <a href="https://www.instagram.com/jkomxr/"><img id="Instagram" src="Instagram.png" width="41px"></a>
+                <a href="https://t.me/+rtjGSR8yAmo3OTU1"><img id="Telegram" src="Telegram.png" width="41px"></a>
+                <p id="site">nah kalkulator lain dibawah</p>
+                <p><a href="Kalkulator2.html" id="link">Kalkulator Persegi</a></p>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+.title {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #4caf50;
+    text-align: left;
+    font-size: 23px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 11px;
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 135px;
+}
+    
+.menu li {
+    margin-right: 18px;
+}
+    
+.menu li:last-child {
+    margin-right: 0;
+}
+    
+.menu a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.definition {
+    max-width: 600px;
+    margin: 9px auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.definition h1 {
+    font-size: 29px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+}
+
+.definition h4 {
+    font-size: 19px;
+    margin-top: 11px;
+}
+
+.definition p {
+    font-size: 17px;
+    margin-top: -15px;
+    text-align: justify;
+}
+
+.formula {
+    max-width: 600px;
+    margin: 9px auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.formula h1 {
+    font-size: 29px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+}
+
+.formula h4 {
+    font-size: 18px;
+    margin-top: 11px;
+}
+
+.formula p {
+    font-size: 25px;
+    font-family: "Gentium Plus", serif;
+    margin-top: -11px;
+}
+
+.difference {
+    max-width: 600px;
+    margin: 9px auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.difference h1 {
+    font-size: 29px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+}
+
+#information {
+    font-size: 19px;
+}
+
+.bordered-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+  
+.bordered-table th, .bordered-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: justify;
+}
+
+.source {
+    max-width: 600px;
+    margin: 9px auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.source h1 {
+    font-size: 29px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+}
+
+.source p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+#sc {
+    font-size: 17px;
+}

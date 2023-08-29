@@ -1,0 +1,150 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    background-color: #4caf50;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .output-group {
+    margin-top: 20px;
+  }
+  
+  .calculation {
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 169px;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Contact {
+    max-width: 600px;
+    margin: 9px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Contact h2 {
+    font-size: 23px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+  }
+  
+  .Contact p {
+    margin-top: -7px;
+  }
+  
+  #Gmail {
+    margin-left: -9px;
+  }
+  
+  #Instagram {
+    margin-left: -3px;
+  }
+  
+  #Telegram {
+    margin-left: 5px;
+  }
+  
+  #site {
+    margin-top: 19px;
+  }
+  
+  #link {
+    text-decoration: none;
+    color: blue;
+  }
